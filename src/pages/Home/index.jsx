@@ -1,19 +1,19 @@
 import React from "react";
-import { Container, TextCard, TextInfo } from "./styles";
+import logo from "../../Assets/images/taco-img.png"
+import { Container, TacoWebAppLogo} from "./styles";
 
 const Home = () => {
 
     return (
-        <Container>
-            <TextCard>
-                <TextInfo>
-                    <h1>Taco Web App</h1>
-                </TextInfo>
-            </TextCard>
-
-
-        </Container>
-    )
+      <Container>
+        <TacoWebAppLogo>
+            
+            <img src={logo} alt={"logo de taco web app"} /> 
+            {/* arrumar tamanho da imagem */}
+            
+        </TacoWebAppLogo>
+      </Container>
+    );
 }
 
 export default Home;

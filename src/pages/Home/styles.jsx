@@ -1,24 +1,17 @@
 import styled from "styled-components";
 
-const Container = styled.div`
+export const Container = styled.div`
+    witdh: 100%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-`
-
-const TextCard = styled.div`
-    display: flex;
-    align-items: center;    
     justify-content: center;
-`
-
-const TextInfo = styled.h1`
-    font-size: 2rem;
-    font-weight: 700;
-    text-align: center;
-    justify-content: center;
-    display: flex;
     align-items: center;
+    background-color: #1B410E;
 `
 
+export const TacoWebAppLogo = styled.div`
+    display: flex;
 
-export { Container, TextCard, TextInfo }
+
+`
