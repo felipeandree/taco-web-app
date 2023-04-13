@@ -1,13 +1,10 @@
 import './App.css';
-import GlobalStyle from './Assets/styles/globalStyle';
-import Home from './pages/Home';
-
+import AppRoutes from './routes';
 
 function App() {
   return (
     <div className="App">
-      <GlobalStyle />
-      <Home />
+      <AppRoutes />
     </div>
   );
 }
