@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Container = styled.div`
     witdh: 100%;
@@ -8,10 +8,10 @@ export const Container = styled.div`
     justify-content: center;
     align-items: center;
     background-color: #1B410E;
-`
+`;
 
 export const TacoWebAppLogo = styled.div`
     display: flex;
 
 
-`
+`;

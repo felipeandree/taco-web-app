@@ -1,12 +1,12 @@
-import React from "react";
-import Input from "./styles";
+import React from 'react';
+import Input from './styles';
 
 export const SearchInput = () => {
-    <>
+  <>
     <div>
-        <Input />
+      <Input />
     </div>
-    </>
+  </>;
 
-}
+};
 

@@ -1,6 +1,6 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components';
 
-const GlobalStyle = createGlobalStyle`
+export const GlobalStyle = createGlobalStyle`
 *{
     font-family: 'Lato', sans-serif;
     margin: 0;
@@ -21,5 +21,3 @@ const GlobalStyle = createGlobalStyle`
     font-size: 1.6rem;
   }
 `;
-
-export default GlobalStyle;

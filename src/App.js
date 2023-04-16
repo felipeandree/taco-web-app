@@ -1,10 +1,15 @@
+import React from 'react';
 import './App.css';
-import AppRoutes from './routes';
+// Reaproveitamento de estrutura
+import { Outlet } from 'react-router-dom';
+import { GlobalStyle } from './Assets/styles/globalStyle';
 
 function App() {
   return (
     <div className="App">
-      <AppRoutes />
+      <GlobalStyle />
+      <Outlet/>
+    
     </div>
   );
 }
