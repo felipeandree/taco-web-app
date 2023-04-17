@@ -1,7 +1,19 @@
 import React from 'react';
+import Container from './styles';
+import SearchBar from '../../components/Inputs';
 
-export const Home = () => {
+const Home = () => {
   return (
-    <div>Home Com barras de pesquisa </div>
+    
+
+    <>
+      <Container>
+        <SearchBar />
+      </Container>
+
+    </>
+   
   );
 };
+
+export default Home;
