@@ -1,18 +1,21 @@
 import React from 'react';
-import Container from './styles';
+import Container, { Logo, LogoImg } from './styles';
 import SearchBar from '../../components/Inputs';
+import logo from '../../Assets/images/taco-img-small.png'; 
 
 const Home = () => {
   return (
-    
-
-    <>
-      <Container>
-        <SearchBar />
-      </Container>
-
-    </>
-   
+    <Container>
+      <Logo>
+        <LogoImg>
+          <img src={logo} alt={'logo de taco web app'} />
+        </LogoImg>
+        
+      </Logo>
+      <SearchBar/>
+        
+      
+    </Container>
   );
 };
 

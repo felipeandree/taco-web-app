@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
-import SearchInput from './styles';
+import SearchInput, { SearchIcon } from './styles';
+import { AiOutlineSearch } from 'react-icons/ai'; 
+
 
 
 function SearchBar(props) {
@@ -17,13 +19,17 @@ function SearchBar(props) {
 
   return (
     <form onSubmit={handleSubmit}>
+      <SearchIcon>
+        <AiOutlineSearch/> 
+      </SearchIcon>
+      
       <SearchInput
         type="text"
         placeholder="Search..."
         value={searchTerm}
         onChange={handleSearch}
+       
       />
-      <button type="submit">Search</button>
     </form>
   );
 }
